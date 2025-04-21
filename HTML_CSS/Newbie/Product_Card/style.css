@@ -1,0 +1,24 @@
+/* This is the CSS file for the Product Card component. */
+
+body{
+    background-color: hsl(30, 38%, 92%);
+   
+}
+
+/* Stylings for the left-container and its contents.
+    image only */
+
+
+
+/* Stylings for the right-container and its contents...
+    h3, h1, p, button */
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
