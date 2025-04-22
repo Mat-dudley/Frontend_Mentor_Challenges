@@ -1,24 +1,96 @@
 /* This is the CSS file for the Product Card component. */
 
+/* TODO: 
+
+    Add a brief description of the component and its purpose.  
+    This is a product card component that displays an image, title, description, and price.    
+    It is designed to be responsive and visually appealing.    
+    The card is styled using CSS Flexbox for layout and positioning.   
+    The card is also designed to be accessible and user-friendly.    
+
+*/
+    
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body{
     background-color: hsl(30, 38%, 92%);
+    justify-content: center;
    
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14rem;
+    flex-direction: row;
 }
 
 /* Stylings for the left-container and its contents.
     image only */
-
+img[alt="Picture of Chanel perfume"]{
+    border-radius: 10px 0px 0px 10px;
+}
 
 
 /* Stylings for the right-container and its contents...
     h3, h1, p, button */
+.right-container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 2rem;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h3{
+    font-family: "Fraunces", sans-serif;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h1{
+    font-family: "Monteserrat";
+    font-size: 30pt;
+}
+p{
+    font-family: "Fraunces", sans-serif;
+    font-size: 12pt;
+    
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    font-family: "Monteserrat";
+    font-size: 18pt;
+    font-weight: Bold;
+    color: hsl(158, 36%, 37%);
+    
+}
 
 
-
+/* Stylings for */
 .attribution {
     font-size: 11px;
     text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* 
+    * Mobile devices stylings 
+*/
+@media screen and (max-width = 450px) {
+
 }
